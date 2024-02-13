@@ -1,0 +1,4 @@
+_PestTool = Class("template", {}) 
+_PestTool.portList = [] 			 
+
+PestTool = new Class("PestTool", _PestTool.prototype).prototype
